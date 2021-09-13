@@ -39,16 +39,25 @@ header{
     padding: 20px 40px;
     text-align: left;
 }
+
+.div-code{
+    width: 100%;
+    background-color: #f7f7f7;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+
 @media screen and (max-width: 815px) {
     body {
-      display: flex;
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
     #navbar ul li{
-        width: 100%;
+        width: auto;
     }
     #navbar ul{
         height: 207px;
-        overflow: scroll;
+        overflow-y: scroll;
     }
-  }
+}
